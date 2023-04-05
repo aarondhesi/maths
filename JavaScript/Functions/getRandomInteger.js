@@ -5,7 +5,7 @@
  * @returns {number} random integer
  */
 
-const getRandInt = (min, max) => {
+const getRandomInteger = (min, max) => {
   const errorStr = "\nmin = " + min + " (" + typeof min + ")\nmax = " + max + " (" + typeof max + ")";
 
   if (typeof min != "number" || typeof max != "number") {
@@ -20,4 +20,4 @@ const getRandInt = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-export { getRandInt };
+export { getRandomInteger };
