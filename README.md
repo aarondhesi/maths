@@ -1,2 +1,2 @@
 # Mathematics
-JavaScript functions and classes for maths
+JavaScript and C# functions and classes for maths
